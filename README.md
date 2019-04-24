@@ -15,17 +15,31 @@ generate date sequence like Linux `seq` command.
 
 ## Synopsis
 
+### Print days from execution date
+
 ```console
 # in case execution date is 20190101
 % dateseq 3
 20190101
 20190102
 20190103
+```
 
-# specify start date as 20190201
+### Print days from specified date
+
+```console
 % dateseq 2 20190201
 20190201
 20190202
+```
+
+### Print days from specified date to specified date
+
+```console
+% dateseq 3 20190301 20190304
+20190301
+20190302
+20190304
 ```
 
 ## Description
