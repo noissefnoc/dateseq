@@ -44,6 +44,10 @@ generate date sequence like Linux `seq` command.
 
 ## Description
 
+```
+Usage: dateseq num_days [start_date] [end_date]
+```
+
 ## Installation
 
 ```console
