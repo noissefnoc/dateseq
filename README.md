@@ -13,6 +13,7 @@ dateseq
 
 generate date sequence like Linux `seq` command.
 
+
 ## Synopsis
 
 ### Print days from execution date
@@ -42,17 +43,20 @@ generate date sequence like Linux `seq` command.
 20190304
 ```
 
+
 ## Description
 
 ```
 Usage: dateseq num_days [start_date] [end_date]
 ```
 
+
 ## Installation
 
 ```console
 % go get github.com/noissefnoc/dateseq
 ```
+
 
 ## Author
 
